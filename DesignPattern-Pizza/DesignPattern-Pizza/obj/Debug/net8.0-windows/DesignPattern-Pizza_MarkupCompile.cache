@@ -1,5 +1,5 @@
 ﻿DesignPattern-Pizza
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 C:\Users\bryde\Documents\GitHub\PizzaMaker\DesignPattern-Pizza\DesignPattern-Pizza\App.xaml
 3-2038885080
 
-141319804712
+12-320823976
 198185795992
 Game.xaml;Instructions.xaml;MainWindow.xaml;
 
-False
+True
 
