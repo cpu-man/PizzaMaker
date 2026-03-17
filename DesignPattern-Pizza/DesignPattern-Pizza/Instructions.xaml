@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="Instructions" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock x:Name="InsBlock" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
+        <TextBlock x:Name="Title" Text="How To Play" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="50" FontWeight="ExtraBold" Foreground="Red"/>
+        <Button x:Name="Next" Content="-->" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="100,130,0,0" />
     </Grid>
 </Window>

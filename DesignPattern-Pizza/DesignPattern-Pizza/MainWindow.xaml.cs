@@ -20,5 +20,18 @@ namespace DesignPattern_Pizza
         {
             InitializeComponent();
         }
+
+        private void Play_Click(object sender, RoutedEventArgs e)
+        {
+            Game game = new Game();
+            game.Show();
+            this.Close();
+        }
+        private void Instructions_Click(object sender, RoutedEventArgs e)
+        {
+            Instructions instructions = new Instructions();
+            instructions.Show();
+            this.Close();
+        }
     }
 }

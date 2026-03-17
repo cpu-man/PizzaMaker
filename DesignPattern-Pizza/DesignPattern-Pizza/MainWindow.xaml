@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label x:Name="Title" Content="Pizza Maker" FontWeight="ExtraBold" FontFamily="Heebo ExtraBold" FontSize="55" HorizontalAlignment="Center" Margin="0,70,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Play" Content="Play" HorizontalAlignment="Left" Margin="281,257,0,0" VerticalAlignment="Top" Click="Play_Click"/>
+        <Button x:Name="Instructions" Content="How To Play" HorizontalAlignment="Left" Margin="471,257,0,0" VerticalAlignment="Top" Click="Instructions_Click"/>
 
     </Grid>
 </Window>
