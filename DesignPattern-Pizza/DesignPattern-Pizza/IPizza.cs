@@ -8,5 +8,9 @@ namespace DesignPattern_Pizza
 {
     interface IPizza
     {
+        decimal GetPrice();
+
+        string GetDescription();
+       
     }
 }

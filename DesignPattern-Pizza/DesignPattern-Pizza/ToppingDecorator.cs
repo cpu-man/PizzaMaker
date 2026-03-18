@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace DesignPattern_Pizza
 {
-    abstract class ToppingDecorator
+    abstract class ToppingDecorator : IPizza
     {
+        protected IPizza _pizza;
+
+        public ToppingDecorator(IPizza pizza)
+        {
+            _pizza = pizza;
+        }
+
+        public abstract decimal GetPrice();
+
+        public abstract string GetDescription();
+        
     }
 }
