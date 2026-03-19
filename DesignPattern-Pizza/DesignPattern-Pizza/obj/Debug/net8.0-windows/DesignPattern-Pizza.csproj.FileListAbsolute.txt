@@ -48,3 +48,5 @@ C:\Users\bryde\Documents\GitHub\PizzaMaker\DesignPattern-Pizza\DesignPattern-Piz
 C:\Users\bryde\Documents\GitHub\PizzaMaker\DesignPattern-Pizza\DesignPattern-Pizza\obj\Debug\net8.0-windows\DesignPattern-Pizza.pdb
 C:\Users\bryde\Documents\GitHub\PizzaMaker\DesignPattern-Pizza\DesignPattern-Pizza\obj\Debug\net8.0-windows\DesignPattern-Pizza.genruntimeconfig.cache
 C:\Users\bryde\Documents\GitHub\PizzaMaker\DesignPattern-Pizza\DesignPattern-Pizza\obj\Debug\net8.0-windows\ref\DesignPattern-Pizza.dll
+C:\Users\sidne\source\repos\PizzaMaker\DesignPattern-Pizza\DesignPattern-Pizza\obj\Debug\net8.0-windows\Login.g.cs
+C:\Users\sidne\source\repos\PizzaMaker\DesignPattern-Pizza\DesignPattern-Pizza\obj\Debug\net8.0-windows\Login.baml

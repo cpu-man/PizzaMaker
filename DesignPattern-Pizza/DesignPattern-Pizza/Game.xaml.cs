@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using DesignPattern_Pizza.Topping;
 
 namespace DesignPattern_Pizza
 {
@@ -19,12 +20,30 @@ namespace DesignPattern_Pizza
     /// </summary>
     public partial class Game : Window
     {
+        IPizza _currentPizza;
         public Game()
         {
             InitializeComponent();
+            _currentPizza = new MargheritaBase();
         }
 
         private void Kebab_Click(object sender, RoutedEventArgs e)
+        {
+            _currentPizza = new KebabDecorator(_currentPizza);
+            MessageBox.Show($"Added: Kebab\n{_currentPizza.GetDescription()}\nPris:{_currentPizza.GetPrice()} kr");
+        }
+
+        private void Parma_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Gorgon_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Mozza_Click(object sender, RoutedEventArgs e)
         {
 
         }
