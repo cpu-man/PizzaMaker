@@ -5,12 +5,54 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DesignPattern_Pizza"
         mc:Ignorable="d"
-        Title="Instructions" Height="450" Width="800">
-    <Grid>
-        <TextBlock x:Name="InsBlock" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-        <TextBlock x:Name="Title" Text="How To Play" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="50" FontWeight="ExtraBold" Foreground="Red"/>
-        <Button x:Name="Next" Content="Next" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="100,130,0,0" Click="Next_Click" />
-        <Button x:Name="Back" Content="Back" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-100,130,0,0" Click="Back_Click" />
-        <Button x:Name="ToMenu" Content="Start Menu" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="100,130,0,0" Click="ToMenu_Click"/>
-    </Grid>
+        Title="How To Play"
+        WindowState="Maximized"
+        Background="#A2D9CE">
+
+    <Viewbox Stretch="Uniform">
+        <Grid Width="1920" Height="1080">
+
+            <!-- Title -->
+            <TextBlock Text="How To Play"
+                       FontSize="100" FontWeight="Bold" Foreground="#E67E22"
+                       HorizontalAlignment="Center" VerticalAlignment="Top"
+                       Margin="0,80,0,0"/>
+
+            <!-- Instruction text -->
+            <TextBlock x:Name="InsBlock"
+                       FontSize="40" Foreground="#2C3E50"
+                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                       TextAlignment="Center" TextWrapping="Wrap"
+                       Width="1200" Margin="0,0,0,100"/>
+
+            <!-- Navigation buttons -->
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                        Orientation="Horizontal" Margin="0,0,0,100">
+
+                <Button x:Name="Back" Content="◀ BACK"
+                        Width="250" Height="90" Margin="30,0"
+                        FontSize="36" FontWeight="Bold"
+                        Background="#95A5A6" Foreground="White"
+                        BorderBrush="#7F8C8D" BorderThickness="4"
+                        Cursor="Hand" Click="Back_Click"/>
+
+                <Button x:Name="Next" Content="NEXT ▶"
+                        Width="250" Height="90" Margin="30,0"
+                        FontSize="36" FontWeight="Bold"
+                        Background="#27AE60" Foreground="White"
+                        BorderBrush="#1E8449" BorderThickness="4"
+                        Cursor="Hand" Click="Next_Click"/>
+
+                <Button x:Name="ToMenu" Content="🏠 MENU"
+                        Width="250" Height="90" Margin="30,0"
+                        FontSize="36" FontWeight="Bold"
+                        Background="#2980B9" Foreground="White"
+                        BorderBrush="#1F618D" BorderThickness="4"
+                        Cursor="Hand" Click="ToMenu_Click"/>
+
+            </StackPanel>
+
+        </Grid>
+    </Viewbox>
+
 </Window>

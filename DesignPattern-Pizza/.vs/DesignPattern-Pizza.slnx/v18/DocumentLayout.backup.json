@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\bryde\\Documents\\GitHub\\PizzaMaker\\DesignPattern-Pizza\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\bryde\\documents\\github\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\instructions.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\instructions.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\bryde\\documents\\github\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\bryde\\documents\\github\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\game.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\game.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +31,42 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Instructions.xaml",
+              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Instructions.xaml",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\Instructions.xaml",
+              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Instructions.xaml",
+              "RelativeToolTip": "DesignPattern-Pizza\\Instructions.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-19T11:35:29.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\MainWindow.xaml",
+              "RelativeToolTip": "DesignPattern-Pizza\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-19T11:33:35.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.xaml",
+              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Game.xaml",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\Game.xaml",
+              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Game.xaml",
+              "RelativeToolTip": "DesignPattern-Pizza\\Game.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-19T11:32:18.835Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -5,11 +5,40 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DesignPattern_Pizza"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Label x:Name="Title" Content="Pizza Maker" FontWeight="ExtraBold" FontFamily="Heebo ExtraBold" FontSize="55" HorizontalAlignment="Center" Margin="0,70,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="Play" Content="Play" HorizontalAlignment="Left" Margin="281,257,0,0" VerticalAlignment="Top" Click="Play_Click"/>
-        <Button x:Name="Instructions" Content="How To Play" HorizontalAlignment="Left" Margin="471,257,0,0" VerticalAlignment="Top" Click="Instructions_Click"/>
+        Title="Pizzeria"
+        WindowState="Maximized"
+        Background="#A2D9CE">
 
-    </Grid>
+    <Viewbox Stretch="Uniform">
+        <Grid Width="1920" Height="1080">
+
+            <!-- Title -->
+            <TextBlock Text="🍕 Pizza Maker"
+                       FontSize="120" FontWeight="Bold" Foreground="#E67E22"
+                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                       Margin="0,0,0,300"/>
+
+            <!-- Buttons -->
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"
+                        Orientation="Horizontal" Margin="0,200,0,0">
+
+                <Button x:Name="Play" Content="PLAY"
+                        Width="300" Height="100" Margin="30,0"
+                        FontSize="40" FontWeight="Bold"
+                        Background="#27AE60" Foreground="White"
+                        BorderBrush="#1E8449" BorderThickness="4"
+                        Cursor="Hand" Click="Play_Click"/>
+
+                <Button x:Name="Instructions" Content="HOW TO PLAY"
+                        Width="300" Height="100" Margin="30,0"
+                        FontSize="40" FontWeight="Bold"
+                        Background="#2980B9" Foreground="White"
+                        BorderBrush="#1F618D" BorderThickness="4"
+                        Cursor="Hand" Click="Instructions_Click"/>
+
+            </StackPanel>
+
+        </Grid>
+    </Viewbox>
+
 </Window>
