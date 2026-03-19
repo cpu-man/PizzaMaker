@@ -24,5 +24,9 @@ namespace DesignPattern_Pizza
             InitializeComponent();
         }
 
+        private void Kebab_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
