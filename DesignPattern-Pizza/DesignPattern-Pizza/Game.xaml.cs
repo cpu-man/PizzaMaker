@@ -82,6 +82,9 @@ namespace DesignPattern_Pizza
 
         }
 
+        private void Bianca_Click(object sender, RoutedEventArgs e)
+        {
 
+        }
     }
 }
