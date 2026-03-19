@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPattern_Pizza
 {
-    abstract class ToppingDecorator : IPizza
+    public abstract class ToppingDecorator : IPizza
     {
         protected IPizza _pizza;
 

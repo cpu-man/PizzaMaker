@@ -15,14 +15,18 @@ using System.Windows.Shapes;
 namespace DesignPattern_Pizza
 {
     /// <summary>
-    /// Interaction logic for Game.xaml
+    /// Interaction logic for Login.xaml
     /// </summary>
-    public partial class Game : Window
+    public partial class Login : Window
     {
-        public Game()
+        public Login()
         {
             InitializeComponent();
         }
 
+        private void CreateUser_Click(object sender, RoutedEventArgs e)
+        {
+            string userName = EnterName.Text;
+        }
     }
 }
