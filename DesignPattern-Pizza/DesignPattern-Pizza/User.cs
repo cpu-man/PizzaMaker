@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace DesignPattern_Pizza
 {
-    public interface IPizza
+    public class User
     {
-        decimal GetPrice();
+        string user { get; set; }
 
-        string GetDescription();
-       
+        //public user(user user)
+        //{
+        //    this.user = user;
+        //}
     }
 }

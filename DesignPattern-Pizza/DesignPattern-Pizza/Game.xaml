@@ -130,9 +130,9 @@
                                Margin="20">
 
                         <!-- Kebab button -->
-                        <Button Width="130" Height="130" Margin="15"
+                        <Button x:Name="KebabButton" Width="130" Height="130" Margin="15"
                                 Background="Brown" BorderBrush="#873600" BorderThickness="4"
-                                Cursor="Hand">
+                                Cursor="Hand" Click="Button_Click">
                             <Button.Template>
                                 <ControlTemplate TargetType="Button">
                                     <Grid>
@@ -145,7 +145,7 @@
                         </Button>
 
                         <!-- Mozzarella button -->
-                        <Button Width="130" Height="130" Margin="15"
+                        <Button x:Name="MozzaButton" Width="130" Height="130" Margin="15"
                                 Background="AntiqueWhite" BorderBrush="#B7950B" BorderThickness="4"
                                 Cursor="Hand">
                             <Button.Template>
@@ -159,7 +159,7 @@
                         </Button>
 
                         <!-- Parma (Parma ham) button -->
-                        <Button Width="130" Height="130" Margin="15"
+                        <Button x:Name="ParmaButton" Width="130" Height="130" Margin="15"
                                 Background="#E74C3C" BorderBrush="#943126" BorderThickness="4"
                                 Cursor="Hand">
                             <Button.Template>
@@ -173,7 +173,7 @@
                         </Button>
 
                         <!-- Gorgonzola button (label abbreviated to fit circle) -->
-                        <Button Width="130" Height="130" Margin="15"
+                        <Button x:Name="GorgonButton" Width="130" Height="130" Margin="15"
                                 Background="#5DADE2" BorderBrush="#2874A6" BorderThickness="4"
                                 Cursor="Hand">
                             <Button.Template>
