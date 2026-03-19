@@ -69,19 +69,68 @@ namespace DesignPattern_Pizza
 
         private void Parma_Click(object sender, RoutedEventArgs e)
         {
-
+            _currentPizza = new ParmaDecorator(_currentPizza);
+            var parmaImg = new Image
+            {
+                Source = new BitmapImage(new Uri("pack://application:,,,/images_png/Parma Topping.png")),
+                Width = 650,
+                Height = 650,
+                Stretch = Stretch.Uniform,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+            };
+            PizzaCanvas.Children.Add(parmaImg);
+            MessageBox.Show($"Added: Parma ham\n{_currentPizza.GetDescription()}\nPris:{_currentPizza.GetPrice()} kr");
         }
 
         private void Gorgon_Click(object sender, RoutedEventArgs e)
         {
+            _currentPizza = new GorgonzolaDecorator(_currentPizza);
+            var gorgonImg = new Image
+            {
+                Source = new BitmapImage(new Uri("pack://application:,,,/images_png/Gorgonzola Topping.png")),
+                Width = 650,
+                Height = 650,
+                Stretch = Stretch.Uniform,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+            };
+            PizzaCanvas.Children.Add(gorgonImg);
+            MessageBox.Show($"Added: Gorgonzola\n{_currentPizza.GetDescription()}\nPris:{_currentPizza.GetPrice()} kr");
 
         }
 
         private void Mozza_Click(object sender, RoutedEventArgs e)
         {
+            _currentPizza = new MozzarellaDecorator(_currentPizza);
+            var mozzaImg = new Image
+            {
+                Source = new BitmapImage(new Uri("pack://application:,,,/images_png/Mozzarella Topping.png")),
+                Width = 650,
+                Height = 650,
+                Stretch = Stretch.Uniform,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+            };
+            PizzaCanvas.Children.Add(mozzaImg);
+            MessageBox.Show($"Added: Mozzarella\n{_currentPizza.GetDescription()}\nPris:{_currentPizza.GetPrice()} kr");
 
         }
 
-
+        private void Bianca_Click(object sender, RoutedEventArgs e)
+        {
+            _currentPizza = new BiancaBase(_currentPizza);
+            var biancaImg = new Image
+            {
+                Source = new BitmapImage(new Uri("pack://application:,,,/images_png/Bianca base.png")),
+                Width = 500,
+                Height = 500,
+                Stretch = Stretch.Uniform,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+            };
+            PizzaCanvas.Children.Add(biancaImg);
+            MessageBox.Show($"Added: Bianca\n{_currentPizza.GetDescription()}\nPris:{_currentPizza.GetPrice()} kr");
+        }
     }
 }

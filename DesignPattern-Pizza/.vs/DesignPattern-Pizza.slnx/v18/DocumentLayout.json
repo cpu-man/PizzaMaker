@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\game.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\game.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\game.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\game.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\margheritabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\margheritabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\biancabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\biancabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\game.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\game.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\margheritabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\margheritabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\topping\\kebabdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Game.xaml",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Game.xaml",
               "RelativeDocumentMoniker": "DesignPattern-Pizza\\Game.xaml",
@@ -110,20 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Game.xaml.cs",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Game.xaml.cs",
               "RelativeDocumentMoniker": "DesignPattern-Pizza\\Game.xaml.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Game.xaml.cs",
               "RelativeToolTip": "DesignPattern-Pizza\\Game.xaml.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAIwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAgwH4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T11:56:13.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MargheritaBase.cs",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\MargheritaBase.cs",
               "RelativeDocumentMoniker": "DesignPattern-Pizza\\MargheritaBase.cs",
@@ -135,15 +135,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BiancaBase.cs",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\BiancaBase.cs",
               "RelativeDocumentMoniker": "DesignPattern-Pizza\\BiancaBase.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\BiancaBase.cs",
               "RelativeToolTip": "DesignPattern-Pizza\\BiancaBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T10:01:34.279Z"
+              "WhenOpened": "2026-03-19T10:01:34.279Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

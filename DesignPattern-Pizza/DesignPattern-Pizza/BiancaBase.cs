@@ -6,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace DesignPattern_Pizza
 {
-    public class BiancaBase : IPizza
+    public class BiancaBase : ToppingDecorator
     {
-        public decimal GetPrice()
+        public BiancaBase(IPizza pizza) : base(pizza)
+        {
+        }
+
+        public override decimal GetPrice()
         {
             return 45;
         }
 
-        public string GetDescription()
+        public override string GetDescription()
         {
             return "Bianca pizza";
         }
