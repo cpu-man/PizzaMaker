@@ -9,4 +9,34 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="images_png\Bianca base.png" />
+    <None Remove="images_png\Gorgonzola Topping.png" />
+    <None Remove="images_png\Kebab Topping.png" />
+    <None Remove="images_png\Margarita base.png" />
+    <None Remove="images_png\Mozzarella Topping.png" />
+    <None Remove="images_png\Parma Topping.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images_png\Bianca base.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images_png\Gorgonzola Topping.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images_png\Kebab Topping.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images_png\Margarita base.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images_png\Mozzarella Topping.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images_png\Parma Topping.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>

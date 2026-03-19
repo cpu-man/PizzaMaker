@@ -10,11 +10,11 @@ none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\bryde\Documents\GitHub\PizzaMaker\DesignPattern-Pizza\DesignPattern-Pizza\App.xaml
-3-2038885080
+4-527740443
 
-121337740994
+14-2008232315
 198185795992
-Game.xaml;Instructions.xaml;MainWindow.xaml;
+Game.xaml;Instructions.xaml;Login.xaml;MainWindow.xaml;
 
 True
 
