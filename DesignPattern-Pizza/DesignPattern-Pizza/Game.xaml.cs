@@ -212,5 +212,12 @@ namespace DesignPattern_Pizza
             ParmaButton.IsEnabled = true;
             GorgonButton.IsEnabled = true;
         }
+        private void Menu_Click(object sender, RoutedEventArgs e)
+        {
+            ResetPizza();
+            MainWindow menu = new MainWindow();
+            menu.Show();
+            this.Close();
+        }
     }
 }

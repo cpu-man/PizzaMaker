@@ -136,6 +136,11 @@
                                 </ControlTemplate>
                             </Button.Template>
                         </Button>
+                        <Button x:Name="MenuButton" Width="130" Height="60" Margin="15,4,15,15"
+                          Background="#E74C3C" BorderBrush="#C0392B" BorderThickness="3"
+                          Cursor="Hand" Click="Menu_Click">
+                            <TextBlock Text="🏠 MENU" FontSize="18" FontWeight="Bold" Foreground="White"/>
+                        </Button>
 
                     </WrapPanel>
 
