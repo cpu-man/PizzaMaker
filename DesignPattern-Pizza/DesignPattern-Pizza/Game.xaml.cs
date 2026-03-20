@@ -14,11 +14,14 @@ namespace DesignPattern_Pizza
         IPizza _currentPizza;
         private decimal _earnings = 0;
         private bool _baseChosen = false;
+        private CustomerOrder _order;
 
         public Game()
         {
             InitializeComponent();
             _currentPizza = new Base();
+            _order = new CustomerOrder();
+            UpdateCustomerBubble();
         }
 
         private void PlaySound()
@@ -50,6 +53,53 @@ namespace DesignPattern_Pizza
             FlameLabel.Foreground = new SolidColorBrush(Color.FromRgb(51, 51, 51));
             PizzaStatusBlock.Text = "Your Pizza: Empty";
             PriceStatusBlock.Text = "Current Price: ";
+        }
+
+        private void UpdateCustomerBubble()
+        {
+            CustomerOrderPanel.Children.Clear();
+
+            var header = new TextBlock
+            {
+                Text = "🗣️ CUSTOMER:",
+                FontSize = 22,
+                FontWeight = FontWeights.Bold,
+                Foreground = new SolidColorBrush(Color.FromRgb(41, 128, 185))
+            };
+
+            var intro = new TextBlock
+            {
+                Text = "I would like a pizza with:",
+                FontSize = 18,
+                Foreground = new SolidColorBrush(Color.FromRgb(52, 73, 94)),
+                Margin = new Thickness(0, 5, 0, 10)
+            };
+
+            CustomerOrderPanel.Children.Add(header);
+            CustomerOrderPanel.Children.Add(intro);
+
+            var baseBlock = new TextBlock
+            {
+                Text = $"🍕 {_order.RequiredBase}",
+                FontSize = 20,
+                FontWeight = FontWeights.Bold,
+                Foreground = Brushes.Crimson,
+                Margin = new Thickness(0, 2, 0, 0)
+            };
+            CustomerOrderPanel.Children.Add(baseBlock);
+
+            foreach (string topping in _order.RequiredToppings)
+            {
+                var t = new TextBlock
+                {
+                    Text = $"• {topping}",
+                    FontSize = 20,
+                    FontWeight = FontWeights.Bold,
+                    Foreground = new SolidColorBrush(Color.FromRgb(52, 73, 94)),
+                    Margin = new Thickness(0, 2, 0, 0)
+                };
+                CustomerOrderPanel.Children.Add(t);
+            }
         }
 
         // Bases
@@ -195,10 +245,7 @@ namespace DesignPattern_Pizza
             FlameLabel.Foreground = new SolidColorBrush(Color.FromRgb(51, 51, 51));
             await Task.Delay(300);
 
-            // Replace this condition with your CustomerOrder logic
-            bool correct = _currentPizza.GetDescription().Contains("Margherita")
-                        && _currentPizza.GetDescription().Contains("Mozzarella")
-                        && _currentPizza.GetDescription().Contains("Kebab");
+            bool correct = _order.CheckOrder(_currentPizza);
 
             if (correct)
             {
@@ -217,6 +264,9 @@ namespace DesignPattern_Pizza
             PriceStatusBlock.Visibility = Visibility.Visible;
 
             ResetPizza();
+
+            _order = new CustomerOrder();
+            UpdateCustomerBubble();
 
             BakeButton.IsEnabled = true;
             KebabButton.IsEnabled = true;

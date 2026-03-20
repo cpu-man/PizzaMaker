@@ -29,23 +29,9 @@
                     </Grid.ColumnDefinitions>
 
                     <!-- Customer speech bubble -->
-                    <Border Grid.Column="0"
-                            Background="White" CornerRadius="30"
-                            Width="400" Height="220"
-                            HorizontalAlignment="Left" VerticalAlignment="Top"
-                            Margin="50,20,0,0"
-                            BorderBrush="#BDC3C7" BorderThickness="4">
-                        <Border.Effect>
-                            <DropShadowEffect Color="#7F8C8D" BlurRadius="10" ShadowDepth="5" Opacity="0.5"/>
-                        </Border.Effect>
-                        <StackPanel Margin="20" VerticalAlignment="Center">
-                            <TextBlock Text="🗣️ CUSTOMER:" FontSize="22" FontWeight="Bold" Foreground="#2980B9" />
-                            <TextBlock Text="I would like a pizza with:" FontSize="18" Foreground="#34495E" Margin="0,5,0,10"/>
-                            <TextBlock Text="🍅 Margherita" FontSize="20" FontWeight="Bold" Foreground="#C0392B" Margin="0,2,0,0"/>
-                            <TextBlock Text="🧀 Mozzarella" FontSize="20" FontWeight="Bold" Foreground="#F1C40F" Margin="0,2,0,0"/>
-                            <TextBlock Text="🥩 Kebab"      FontSize="20" FontWeight="Bold" Foreground="Brown"   Margin="0,2,0,0"/>
-                        </StackPanel>
-                    </Border>
+                    <StackPanel x:Name="CustomerOrderPanel" Margin="20" VerticalAlignment="Center">
+                    </StackPanel>
+
 
                     <!-- Bubble tail -->
                     <Polygon Grid.Column="0"
