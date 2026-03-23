@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPattern_Pizza.Strategy;
+using System;
 using System.Collections.Generic;
 
 namespace DesignPattern_Pizza
@@ -9,11 +10,20 @@ namespace DesignPattern_Pizza
 
         public string RequiredBase { get; private set; }
         public List<string> RequiredToppings { get; private set; }
-
+        public IDiscountStrategy DiscountStrategy { get; }
         public CustomerOrder()
         {
             GenerateOrder();
+
+            var discount = new List<IDiscountStrategy>
+            {
+                new NoDiscount(),
+                new StudentDiscount()
+            };
+            DiscountStrategy = discount[_random.Next(discount.Count)];
         }
+
+
 
         private void GenerateOrder()
         {
