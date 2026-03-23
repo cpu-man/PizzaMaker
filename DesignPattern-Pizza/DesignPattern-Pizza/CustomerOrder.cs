@@ -18,11 +18,11 @@ namespace DesignPattern_Pizza
         private void GenerateOrder()
         {
             // Pick a random base
-            string[] bases = { "Margherita", "Bianca" };
+            string[] bases = { "Margerita", "Bianca" };
             RequiredBase = bases[_random.Next(bases.Length)];
 
             // Pick 2 or 3 random toppings
-            string[] allToppings = { "Kebab", "Mozzarella", "Parma", "Gorgonzola" };
+            string[] allToppings = { "Kebab", "Mozzarella", "Parma ham", "Gorgonzola" };
             int toppingCount = _random.Next(2, 4); // 2 or 3
 
             var shuffled = new List<string>(allToppings);
