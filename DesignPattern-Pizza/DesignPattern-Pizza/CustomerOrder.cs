@@ -27,11 +27,11 @@ namespace DesignPattern_Pizza
 
         private void GenerateOrder()
         {
-            // Pick a random base
+            // Vælger en tilfældig base
             string[] bases = { "Margerita", "Bianca" };
             RequiredBase = bases[_random.Next(bases.Length)];
 
-            // Pick 2 or 3 random toppings
+            // Vælger 2-3 tilfældige toppings
             string[] allToppings = { "Kebab", "Mozzarella", "Parma ham", "Gorgonzola" };
             int toppingCount = _random.Next(2, 4); // 2 or 3
 
@@ -47,7 +47,7 @@ namespace DesignPattern_Pizza
             RequiredToppings = shuffled.GetRange(0, toppingCount);
         }
 
-        public bool CheckOrder(IPizza pizza)
+        public bool CheckOrder(IPizza pizza) //Metode der tjekker om pizzaen stemmer overens med kundens ordrer
         {
             string description = pizza.GetDescription();
 
