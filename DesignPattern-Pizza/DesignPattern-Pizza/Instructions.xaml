@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DesignPattern_Pizza"
         mc:Ignorable="d"
-        Title="How To Play"
+        Title="Pizzeria"
+        Icon="/Pizza Maker.game.logo.ico"
         WindowState="Maximized"
         Background="#A2D9CE">
 

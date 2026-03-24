@@ -26,7 +26,7 @@ namespace DesignPattern_Pizza
             UpdateCustomerBubble();
         }
 
-        private void PlaySound()
+        private void ClickSound()
         {
             var sound = new MediaPlayer();
             sound.Open(new Uri("Sounds/balloon.mp3", UriKind.Relative));
@@ -103,6 +103,17 @@ namespace DesignPattern_Pizza
                 };
                 CustomerOrderPanel.Children.Add(t);
             }
+
+            var discountBlock = new TextBlock
+            {
+                Text = $"{_order.DiscountStrategy.discountName}",
+                FontSize = 20,
+                FontWeight = FontWeights.Bold,
+                Foreground = new SolidColorBrush(Color.FromRgb(52, 73, 94)),
+                Margin = new Thickness(0, 2, 0, 0)
+            };
+            CustomerOrderPanel.Children.Add(discountBlock);
+
         }
 
         // Bases
@@ -122,7 +133,7 @@ namespace DesignPattern_Pizza
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Center
             };
-            PlaySound();
+            ClickSound();
             PizzaCanvas.Children.Add(img);
             //PizzaStatusBlock.Text = _currentPizza.GetDescription();
             //PriceStatusBlock.Text = $"Current Price: {_currentPizza.GetPrice()} kr.";
@@ -144,7 +155,7 @@ namespace DesignPattern_Pizza
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Center
             };
-            PlaySound();
+            ClickSound();
             PizzaCanvas.Children.Add(img);
             //PizzaStatusBlock.Text = _currentPizza.GetDescription();
             //PriceStatusBlock.Text = $"Current Price: {_currentPizza.GetPrice()} kr.";
@@ -164,7 +175,7 @@ namespace DesignPattern_Pizza
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Center
             };
-            PlaySound();
+            ClickSound();
             PizzaCanvas.Children.Add(img);
             //PizzaStatusBlock.Text = _currentPizza.GetDescription();
             //PriceStatusBlock.Text = $"Current Price: {_currentPizza.GetPrice()} kr.";
@@ -183,7 +194,7 @@ namespace DesignPattern_Pizza
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Center
             };
-            PlaySound();
+            ClickSound();
             PizzaCanvas.Children.Add(img);
             //PizzaStatusBlock.Text = _currentPizza.GetDescription();
             //PriceStatusBlock.Text = $"Current Price: {_currentPizza.GetPrice()} kr.";
@@ -202,7 +213,7 @@ namespace DesignPattern_Pizza
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Center
             };
-            PlaySound();
+            ClickSound();
             PizzaCanvas.Children.Add(img);
             //PizzaStatusBlock.Text = _currentPizza.GetDescription();
             //PriceStatusBlock.Text = $"Current Price: {_currentPizza.GetPrice()} kr.";
@@ -221,7 +232,7 @@ namespace DesignPattern_Pizza
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Center
             };
-            PlaySound();
+            ClickSound();
             PizzaCanvas.Children.Add(img);
             //PizzaStatusBlock.Text = _currentPizza.GetDescription();
             //PriceStatusBlock.Text = $"Current Price: {_currentPizza.GetPrice()} kr.";
@@ -253,9 +264,10 @@ namespace DesignPattern_Pizza
             if (correct)
             {
                 decimal earned = _pizzaSubject.GetPizza().GetPrice();
-                _earnings += earned;
+                decimal earnedWithStrategy = _order.DiscountStrategy.ApplyDiscount(earned);
+                _earnings += earnedWithStrategy;
                 EarningsLabel.Text = $"DKK {_earnings:0.00}";
-                MessageBox.Show($"✅ Perfect! The customer loved it!\n+DKK {earned:0.00}", "Great job!");
+                MessageBox.Show($"✅ Perfect! The customer loved it!\n{_order.DiscountStrategy.discountName} used\n+DKK {earnedWithStrategy:0.00}", "Great job!");
             }
             else
             {

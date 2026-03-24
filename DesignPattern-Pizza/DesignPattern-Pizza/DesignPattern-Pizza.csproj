@@ -7,6 +7,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <PackageIcon>Pizza Maker.game.logo.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,6 +18,7 @@
     <None Remove="images_png\Margarita base.png" />
     <None Remove="images_png\Mozzarella Topping.png" />
     <None Remove="images_png\Parma Topping.png" />
+    <None Remove="Pizza Maker.game.logo.ico" />
     <None Remove="Sounds\balloon.mp3" />
   </ItemGroup>
 
@@ -24,6 +26,13 @@
     <Content Include="Sounds\balloon.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="..\..\..\..\..\Downloads\Pizza Maker.game.logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
@@ -45,6 +54,7 @@
     <Resource Include="images_png\Parma Topping.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Pizza Maker.game.logo.ico" />
   </ItemGroup>
 
 </Project>

@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:DesignPattern_Pizza"
         mc:Ignorable="d"
         Title="Pizzeria"
+        Icon="/Pizza Maker.game.logo.ico"
         WindowState="Maximized"
         Background="#A2D9CE">
 
