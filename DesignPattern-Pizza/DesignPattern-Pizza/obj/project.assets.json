@@ -8,19 +8,24 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sidne\\.nuget\\packages\\": {}
+    "C:\\Users\\bryde\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\DesignPattern-Pizza.csproj",
+      "projectUniqueName": "C:\\Users\\bryde\\Documents\\GitHub\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\DesignPattern-Pizza.csproj",
       "projectName": "DesignPattern-Pizza",
-      "projectPath": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\DesignPattern-Pizza.csproj",
-      "packagesPath": "C:\\Users\\sidne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\obj\\",
+      "projectPath": "C:\\Users\\bryde\\Documents\\GitHub\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\DesignPattern-Pizza.csproj",
+      "packagesPath": "C:\\Users\\bryde\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bryde\\Documents\\GitHub\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\sidne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bryde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
