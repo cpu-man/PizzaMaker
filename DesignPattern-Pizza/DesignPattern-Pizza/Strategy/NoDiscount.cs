@@ -8,9 +8,7 @@ namespace DesignPattern_Pizza.Strategy
 {
     public class NoDiscount : IDiscountStrategy
     {
-        string discountName => "No Discount";
-
-        string IDiscountStrategy.discountName => discountName;
+        public string discountName => "No Discount";
 
         public decimal ApplyDiscount(decimal totalPrice)
         {

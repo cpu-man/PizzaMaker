@@ -162,7 +162,7 @@ namespace DesignPattern_Pizza
         }
 
         // Toppings
-        private void Kebab_Click(object sender, RoutedEventArgs e)
+        private void Kebab_Click(object sender, RoutedEventArgs e) //Knap der tilføjer Kebab
         {
             if (!_baseChosen) { MessageBox.Show("Choose a base first!"); return; }
             _pizzaSubject.SetPizza(new KebabDecorator(_pizzaSubject.GetPizza()));
@@ -272,7 +272,7 @@ namespace DesignPattern_Pizza
                 money.Open(new Uri("Sounds/Money.mp3", UriKind.Relative));
                 money.Play();
                 decimal earned = _pizzaSubject.GetPizza().GetPrice(); //Prisen på pizzaen
-                decimal earnedWithStrategy = _order.DiscountStrategy.ApplyDiscount(earned); //Prisen med discount
+                decimal earnedWithStrategy = _order.DiscountStrategy.ApplyDiscount(earned); //Prisen med strategy (discount)
                 _earnings += earnedWithStrategy;
                 EarningsLabel.Text = $"DKK {_earnings:0.00}";
                 MessageBox.Show($"✅ Perfect! The customer loved it!\n{_order.DiscountStrategy.discountName} used\n+DKK {earnedWithStrategy:0.00}", "Great job!");

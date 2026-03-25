@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPattern_Pizza
 {
+    //Pizza interface, bruges af decorator pattern
     public interface IPizza
     {
         decimal GetPrice();

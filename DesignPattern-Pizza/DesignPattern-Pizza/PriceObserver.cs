@@ -7,6 +7,7 @@ using System.Windows.Controls;
 
 namespace DesignPattern_Pizza
 {
+    //Opdaterer pizzaens pris i UI'et når der laves ændringer
     public class PriceObserver : IObserver
     {
         TextBlock _label;
@@ -16,7 +17,7 @@ namespace DesignPattern_Pizza
             _label = label;
         }
 
-        public void Update(IPizza pizza)
+        public void Update(IPizza pizza) //Opdaterer TextBlock med pizzaens pris
         {
             _label.Text = $"Current Price: {pizza.GetPrice()} kr.";
         }

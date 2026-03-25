@@ -11,12 +11,12 @@ namespace DesignPattern_Pizza
         private IPizza _currentPizza = new Base();
         private List<IObserver> _observers = new List<IObserver>();
 
-        public void NewObserver(IObserver observer)
+        public void NewObserver(IObserver observer) //Tilmelder en observer
         {
             _observers.Add(observer);
         }
 
-        public void SetPizza(IPizza pizza)
+        public void SetPizza(IPizza pizza) //Opdaterer pizzaen og notificerer alle observers
         {
             _currentPizza = pizza;
             NotifyAll();
@@ -27,7 +27,7 @@ namespace DesignPattern_Pizza
              return _currentPizza;
         }
 
-        void NotifyAll()
+        void NotifyAll() //Notificerer observers
         {
             foreach(var observer in _observers)
             {

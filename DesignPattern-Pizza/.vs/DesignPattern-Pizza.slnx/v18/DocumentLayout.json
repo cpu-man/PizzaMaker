@@ -7,8 +7,48 @@
       "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\game.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\game.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\game.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\topping\\gorgonzoladecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\topping\\gorgonzoladecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\ipizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\ipizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\topping\\kebabdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\topping\\kebabdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\toppingdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\toppingdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\strategy\\nodiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\strategy\\nodiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\strategy\\studentdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\strategy\\studentdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\strategy\\idiscountstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\strategy\\idiscountstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\priceobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\priceobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\descriptionobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\descriptionobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\pizzasubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\pizzasubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -19,11 +59,8 @@
       "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sidne\\AppData\\Local\\Temp\\.vsdbgsrc\\2aced615afed30bb91ba85a7f4daa419cd03116a3a29d5e1920e2714d42b716f\\SplashScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\strategy\\nodiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\strategy\\nodiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|c:\\users\\sidne\\source\\repos\\pizzamaker\\designpattern-pizza\\designpattern-pizza\\game.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1FC4001-CD02-C92B-B5FD-3328536F59F7}|DesignPattern-Pizza\\DesignPattern-Pizza.csproj|solutionrelative:designpattern-pizza\\game.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,41 +82,29 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPizza.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\IPizza.cs",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\IPizza.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\IPizza.cs",
+              "RelativeToolTip": "DesignPattern-Pizza\\IPizza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:29:04.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Game.xaml",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Game.xaml",
-              "RelativeDocumentMoniker": "DesignPattern-Pizza\\Game.xaml",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Game.xaml",
-              "RelativeToolTip": "DesignPattern-Pizza\\Game.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-25T13:36:38.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\App.xaml.cs",
-              "RelativeDocumentMoniker": "DesignPattern-Pizza\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\App.xaml.cs",
-              "RelativeToolTip": "DesignPattern-Pizza\\App.xaml.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "GorgonzolaDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Topping\\GorgonzolaDecorator.cs",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\Topping\\GorgonzolaDecorator.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Topping\\GorgonzolaDecorator.cs",
+              "RelativeToolTip": "DesignPattern-Pizza\\Topping\\GorgonzolaDecorator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T13:32:48.528Z",
+              "WhenOpened": "2026-03-25T14:18:10.892Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SplashScreen.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\AppData\\Local\\Temp\\.vsdbgsrc\\2aced615afed30bb91ba85a7f4daa419cd03116a3a29d5e1920e2714d42b716f\\SplashScreen.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\2aced615afed30bb91ba85a7f4daa419cd03116a3a29d5e1920e2714d42b716f\\SplashScreen.cs",
-              "ToolTip": "C:\\Users\\sidne\\AppData\\Local\\Temp\\.vsdbgsrc\\2aced615afed30bb91ba85a7f4daa419cd03116a3a29d5e1920e2714d42b716f\\SplashScreen.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\2aced615afed30bb91ba85a7f4daa419cd03116a3a29d5e1920e2714d42b716f\\SplashScreen.cs [Read Only]",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGwAAAADAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T13:33:42.95Z",
-              "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
@@ -89,14 +114,131 @@
               "RelativeDocumentMoniker": "DesignPattern-Pizza\\Game.xaml.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Game.xaml.cs",
               "RelativeToolTip": "DesignPattern-Pizza\\Game.xaml.cs",
-              "ViewState": "AgIAAOYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAKQAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T13:30:09.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "KebabDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Topping\\KebabDecorator.cs",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\Topping\\KebabDecorator.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Topping\\KebabDecorator.cs",
+              "RelativeToolTip": "DesignPattern-Pizza\\Topping\\KebabDecorator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:30:35.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentDiscount.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Strategy\\StudentDiscount.cs",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\Strategy\\StudentDiscount.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Strategy\\StudentDiscount.cs",
+              "RelativeToolTip": "DesignPattern-Pizza\\Strategy\\StudentDiscount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T13:49:38.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ToppingDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\ToppingDecorator.cs",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\ToppingDecorator.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\ToppingDecorator.cs",
+              "RelativeToolTip": "DesignPattern-Pizza\\ToppingDecorator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:18:21.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDiscountStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Strategy\\IDiscountStrategy.cs",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\Strategy\\IDiscountStrategy.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Strategy\\IDiscountStrategy.cs",
+              "RelativeToolTip": "DesignPattern-Pizza\\Strategy\\IDiscountStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:18:04.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NoDiscount.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Strategy\\NoDiscount.cs",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\Strategy\\NoDiscount.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Strategy\\NoDiscount.cs",
+              "RelativeToolTip": "DesignPattern-Pizza\\Strategy\\NoDiscount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T13:30:06.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PriceObserver.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\PriceObserver.cs",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\PriceObserver.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\PriceObserver.cs",
+              "RelativeToolTip": "DesignPattern-Pizza\\PriceObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:17:22.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DescriptionObserver.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\DescriptionObserver.cs",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\DescriptionObserver.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\DescriptionObserver.cs",
+              "RelativeToolTip": "DesignPattern-Pizza\\DescriptionObserver.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T14:12:38.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PizzaSubject.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\PizzaSubject.cs",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\PizzaSubject.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\PizzaSubject.cs",
+              "RelativeToolTip": "DesignPattern-Pizza\\PizzaSubject.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T13:59:19.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IObserver.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\IObserver.cs",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\IObserver.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\IObserver.cs",
+              "RelativeToolTip": "DesignPattern-Pizza\\IObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T13:56:57.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DesignPattern-Pizza\\MainWindow.xaml",
@@ -108,15 +250,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NoDiscount.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Strategy\\NoDiscount.cs",
-              "RelativeDocumentMoniker": "DesignPattern-Pizza\\Strategy\\NoDiscount.cs",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Strategy\\NoDiscount.cs",
-              "RelativeToolTip": "DesignPattern-Pizza\\Strategy\\NoDiscount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "Game.xaml",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Game.xaml",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\Game.xaml",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\Game.xaml",
+              "RelativeToolTip": "DesignPattern-Pizza\\Game.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-25T13:36:38.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DesignPattern-Pizza\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\PizzaMaker\\DesignPattern-Pizza\\DesignPattern-Pizza\\App.xaml.cs",
+              "RelativeToolTip": "DesignPattern-Pizza\\App.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T13:30:06.71Z",
+              "WhenOpened": "2026-03-25T13:32:48.528Z",
               "EditorCaption": ""
             }
           ]
