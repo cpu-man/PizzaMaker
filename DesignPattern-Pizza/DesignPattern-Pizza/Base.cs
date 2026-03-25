@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPattern_Pizza
 {
+    //Tom pizza objekt, bruges før spilleren har valgt en base
     public class Base : IPizza
     {
         public string GetDescription()

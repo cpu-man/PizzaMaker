@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 namespace DesignPattern_Pizza
 {
+    //Klasse der genererer en ordre for kunden, vælger tilfældig base, topping og rabat
     public class CustomerOrder
     {
         private static Random _random = new Random();
@@ -20,7 +21,7 @@ namespace DesignPattern_Pizza
                 new NoDiscount(),
                 new StudentDiscount()
             };
-            DiscountStrategy = discount[_random.Next(discount.Count)];
+            DiscountStrategy = discount[_random.Next(discount.Count)]; //Vælger tilfældig rabat
         }
 
 
