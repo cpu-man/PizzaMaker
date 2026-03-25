@@ -254,6 +254,10 @@ namespace DesignPattern_Pizza
             PizzaStatusBlock.Visibility = Visibility.Hidden;
             PriceStatusBlock.Visibility = Visibility.Hidden;
 
+            var sound = new MediaPlayer();
+            sound.Open(new Uri("Sounds/Fire.mp3", UriKind.Relative));
+            sound.Play();
+
             //Viser flammer og venter med at give den til kunden
             FlameLabel.Foreground = Brushes.OrangeRed;
             await Task.Delay(2000);
@@ -264,6 +268,9 @@ namespace DesignPattern_Pizza
 
             if (correct)
             {
+                var money = new MediaPlayer();
+                money.Open(new Uri("Sounds/Money.mp3", UriKind.Relative));
+                money.Play();
                 decimal earned = _pizzaSubject.GetPizza().GetPrice(); //Prisen på pizzaen
                 decimal earnedWithStrategy = _order.DiscountStrategy.ApplyDiscount(earned); //Prisen med discount
                 _earnings += earnedWithStrategy;
@@ -272,7 +279,10 @@ namespace DesignPattern_Pizza
             }
             else
             {
-                MessageBox.Show("❌ Wrong pizza! The customer is unhappy.\n+DKK 0.00", "Oops!"); //Besked hvis man ikke laver den rigtige pizza
+                var wrong = new MediaPlayer();
+                wrong.Open(new Uri("Sounds/Wrong.mp3", UriKind.Relative));
+                wrong.Play();
+                MessageBox.Show("❌ Wrong pizza! That's not what the customer ordered.\n+DKK 0.00", "Oops!"); //Besked hvis man ikke laver den rigtige pizza
             }
 
             PizzaCanvas.Visibility = Visibility.Visible;
@@ -294,7 +304,6 @@ namespace DesignPattern_Pizza
 
         private void Menu_Click(object sender, RoutedEventArgs e) //Knap der vender tilbage til hovedmenuen
         {
-            ResetPizza();
             MainWindow menu = new MainWindow();
             menu.Show();
             this.Close();

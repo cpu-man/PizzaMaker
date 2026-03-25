@@ -9,5 +9,8 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/balloon.mp3")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/fire.mp3")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/wrong.mp3")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/money.mp3")]
 
 
