@@ -26,20 +26,20 @@ namespace DesignPattern_Pizza
             UpdateCustomerBubble();
         }
 
-        private void ClickSound()
+        private void ClickSound() //Metode der spiller en lydeffekt hvergang der bliver trykket på en knap
         {
             var sound = new MediaPlayer();
             sound.Open(new Uri("Sounds/balloon.mp3", UriKind.Relative));
             sound.Play();
         }
 
-        private void LockBases()
+        private void LockBases() //Deaktiverer pizza base knapperne så man ikke kan tykke på dem flere gange
         {
             BtnMargherita.IsEnabled = false;
             BtnBianca.IsEnabled = false;
         }
 
-        private void ResetPizza()
+        private void ResetPizza() //Metode der nulstiller pizzaen hver gang der skal laves en ny
         {
             //_currentPizza = new Base();
             _pizzaSubject.SetPizza(new Base());
@@ -58,7 +58,7 @@ namespace DesignPattern_Pizza
             //PriceStatusBlock.Text = "Current Price: ";
         }
 
-        private void UpdateCustomerBubble()
+        private void UpdateCustomerBubble() //Metode der viser kundens ordrer, den opretter nye TextBlocke
         {
             CustomerOrderPanel.Children.Clear();
 
@@ -116,8 +116,8 @@ namespace DesignPattern_Pizza
 
         }
 
-        // Bases
-        private void Margherita_Click(object sender, RoutedEventArgs e)
+        
+        private void Margherita_Click(object sender, RoutedEventArgs e) //Knap der tilføjer Margherita
         {
             if (_baseChosen) return;
             _baseChosen = true;
@@ -139,7 +139,7 @@ namespace DesignPattern_Pizza
             //PriceStatusBlock.Text = $"Current Price: {_currentPizza.GetPrice()} kr.";
         }
 
-        private void Bianca_Click(object sender, RoutedEventArgs e)
+        private void Bianca_Click(object sender, RoutedEventArgs e) //Knap der tilføjer Bianca base
         {
             if (_baseChosen) return;
             _baseChosen = true;
@@ -181,7 +181,7 @@ namespace DesignPattern_Pizza
             //PriceStatusBlock.Text = $"Current Price: {_currentPizza.GetPrice()} kr.";
         }
 
-        private void Mozza_Click(object sender, RoutedEventArgs e)
+        private void Mozza_Click(object sender, RoutedEventArgs e) //Knap der tilføjer Mozzarellla
         {
             if (!_baseChosen) { MessageBox.Show("Choose a base first!"); return; }
             _pizzaSubject.SetPizza(new MozzarellaDecorator(_pizzaSubject.GetPizza()));
@@ -200,7 +200,7 @@ namespace DesignPattern_Pizza
             //PriceStatusBlock.Text = $"Current Price: {_currentPizza.GetPrice()} kr.";
         }
 
-        private void Parma_Click(object sender, RoutedEventArgs e)
+        private void Parma_Click(object sender, RoutedEventArgs e) //Knap der tilføjer Parma ham
         {
             if (!_baseChosen) { MessageBox.Show("Choose a base first!"); return; }
             _pizzaSubject.SetPizza(new ParmaDecorator(_pizzaSubject.GetPizza()));
@@ -219,7 +219,7 @@ namespace DesignPattern_Pizza
             //PriceStatusBlock.Text = $"Current Price: {_currentPizza.GetPrice()} kr.";
         }
 
-        private void Gorgon_Click(object sender, RoutedEventArgs e)
+        private void Gorgon_Click(object sender, RoutedEventArgs e) //Knap der tilføjer Gorgonzolla
         {
             if (!_baseChosen) { MessageBox.Show("Choose a base first!"); return; }
             _pizzaSubject.SetPizza(new GorgonzolaDecorator(_pizzaSubject.GetPizza()));
@@ -239,9 +239,9 @@ namespace DesignPattern_Pizza
         }
 
         // Bake
-        private async void Bake_Click(object sender, RoutedEventArgs e)
+        private async void Bake_Click(object sender, RoutedEventArgs e) //Knap der sætter pizza i 'ovnen' og giver den til kunden. 
         {
-            if (!_baseChosen) { MessageBox.Show("Choose a base first!"); return; }
+            if (!_baseChosen) { MessageBox.Show("Choose a base first!"); return; } //Fejl besked hvis man ikke har en base
 
             BakeButton.IsEnabled = false;
             KebabButton.IsEnabled = false;
@@ -254,6 +254,11 @@ namespace DesignPattern_Pizza
             PizzaStatusBlock.Visibility = Visibility.Hidden;
             PriceStatusBlock.Visibility = Visibility.Hidden;
 
+            var sound = new MediaPlayer();
+            sound.Open(new Uri("Sounds/Fire.mp3", UriKind.Relative));
+            sound.Play();
+
+            //Viser flammer og venter med at give den til kunden
             FlameLabel.Foreground = Brushes.OrangeRed;
             await Task.Delay(2000);
             FlameLabel.Foreground = new SolidColorBrush(Color.FromRgb(51, 51, 51));
@@ -263,22 +268,28 @@ namespace DesignPattern_Pizza
 
             if (correct)
             {
-                decimal earned = _pizzaSubject.GetPizza().GetPrice();
-                decimal earnedWithStrategy = _order.DiscountStrategy.ApplyDiscount(earned);
+                var money = new MediaPlayer();
+                money.Open(new Uri("Sounds/Money.mp3", UriKind.Relative));
+                money.Play();
+                decimal earned = _pizzaSubject.GetPizza().GetPrice(); //Prisen på pizzaen
+                decimal earnedWithStrategy = _order.DiscountStrategy.ApplyDiscount(earned); //Prisen med discount
                 _earnings += earnedWithStrategy;
                 EarningsLabel.Text = $"DKK {_earnings:0.00}";
                 MessageBox.Show($"✅ Perfect! The customer loved it!\n{_order.DiscountStrategy.discountName} used\n+DKK {earnedWithStrategy:0.00}", "Great job!");
             }
             else
             {
-                MessageBox.Show("❌ Wrong pizza! The customer is unhappy.\n+DKK 0.00", "Oops!");
+                var wrong = new MediaPlayer();
+                wrong.Open(new Uri("Sounds/Wrong.mp3", UriKind.Relative));
+                wrong.Play();
+                MessageBox.Show("❌ Wrong pizza! That's not what the customer ordered.\n+DKK 0.00", "Oops!"); //Besked hvis man ikke laver den rigtige pizza
             }
 
             PizzaCanvas.Visibility = Visibility.Visible;
             PizzaStatusBlock.Visibility = Visibility.Visible;
             PriceStatusBlock.Visibility = Visibility.Visible;
 
-            ResetPizza();
+            ResetPizza(); //Når pizzaen er givet kaldes der på metoden der nulstiller pizzaen
 
             _order = new CustomerOrder();
             UpdateCustomerBubble();
@@ -291,9 +302,8 @@ namespace DesignPattern_Pizza
             MenuButton.IsEnabled = true;
         }
 
-        private void Menu_Click(object sender, RoutedEventArgs e)
+        private void Menu_Click(object sender, RoutedEventArgs e) //Knap der vender tilbage til hovedmenuen
         {
-            ResetPizza();
             MainWindow menu = new MainWindow();
             menu.Show();
             this.Close();
