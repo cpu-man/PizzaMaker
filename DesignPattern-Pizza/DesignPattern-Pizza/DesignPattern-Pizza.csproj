@@ -18,21 +18,27 @@
     <None Remove="images_png\Margarita base.png" />
     <None Remove="images_png\Mozzarella Topping.png" />
     <None Remove="images_png\Parma Topping.png" />
+    <None Remove="images_png\StartSplash.png" />
     <None Remove="Pizza Maker.game.logo.ico" />
     <None Remove="Sounds\balloon.mp3" />
+    <None Remove="Sounds\Fire.mp3" />
+    <None Remove="Sounds\Money.mp3" />
+    <None Remove="Sounds\Wrong.mp3" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Sounds\balloon.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="..\..\..\..\..\Downloads\Pizza Maker.game.logo.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </Resource>
+    <Content Include="Sounds\Fire.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\Money.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\Wrong.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
@@ -55,6 +61,12 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Pizza Maker.game.logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images_png\StartSplash.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

@@ -12,13 +12,10 @@
 
     <Viewbox Stretch="Uniform">
         <Grid Width="1920" Height="1080">
-            
-            
 
-            <TextBlock Text="🍕 Pizza Maker"
-                       FontSize="120" FontWeight="Bold" Foreground="#E67E22"
-                       HorizontalAlignment="Center" VerticalAlignment="Center"
-                       Margin="0,0,0,300"/>
+
+
+            
 
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"
                         Orientation="Horizontal" Margin="0,200,0,0">
@@ -38,7 +35,7 @@
                         Cursor="Hand" Click="Instructions_Click"/>
 
             </StackPanel>
-            <Image HorizontalAlignment="Left" Height="100" Margin="881,253,0,0" VerticalAlignment="Top" Width="100"/>
+            <Image HorizontalAlignment="Left" Height="437" Margin="742,103,0,0" VerticalAlignment="Top" Width="500" Source="/Pizza Maker.game.logo.ico"/>
 
         </Grid>
     </Viewbox>
