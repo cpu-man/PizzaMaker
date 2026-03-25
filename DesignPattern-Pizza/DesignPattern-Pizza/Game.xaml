@@ -48,11 +48,12 @@
                                        Text="DKK 0.00" FontSize="42" FontWeight="Bold" Foreground="#2ECC71" HorizontalAlignment="Center" Margin="0,10,0,0"/>
                         </StackPanel>
                     </Border>
+                    <Image x:Name="Customer" HorizontalAlignment="Left" Height="641" Margin="150,-126,0,0" VerticalAlignment="Top" Width="492" Source="/images_png/Customer.png"/>
 
                 </Grid>
             </Grid>
 
-        
+
             <Border Grid.Row="1" Background="#ECF0F1" BorderBrush="#BDC3C7" BorderThickness="0,10,0,0">
                 <Grid>
                     <Grid.ColumnDefinitions>

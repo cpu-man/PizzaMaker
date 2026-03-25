@@ -72,7 +72,7 @@ namespace DesignPattern_Pizza
 
             var intro = new TextBlock
             {
-                Text = "I would like a pizza with:",
+                Text = "Hello, i would like a pizza with:",
                 FontSize = 18,
                 Foreground = new SolidColorBrush(Color.FromRgb(52, 73, 94)),
                 Margin = new Thickness(0, 5, 0, 10)
@@ -83,7 +83,7 @@ namespace DesignPattern_Pizza
 
             var baseBlock = new TextBlock
             {
-                Text = $"🍕 {_order.RequiredBase}",
+                Text = $"{_order.RequiredBase}",
                 FontSize = 20,
                 FontWeight = FontWeights.Bold,
                 Foreground = Brushes.Crimson,

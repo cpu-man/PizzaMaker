@@ -19,7 +19,7 @@ namespace DesignPattern_Pizza
     /// </summary>
     public partial class Instructions : Window
     {
-        private string[] _text = new string[]
+        private string[] _text = new string[] //array af strings men instruktioner
            {
                "Hello, welcome to Pizza Maker,\nthe game where you make pizzas and earn money!\nIn this window, i'll teach you how to play the game",
                 "When you press play you'll be presented with a new window.\nThat window is the main game where you'll be making pizzas",
@@ -38,7 +38,7 @@ namespace DesignPattern_Pizza
 
         }
 
-        private void Next_Click(object sender, RoutedEventArgs e)
+        private void Next_Click(object sender, RoutedEventArgs e) //Når spilleren trykker next skifter den til den næste string i array'et
         {
             index = (index + 1) % _text.Length;
             InsBlock.Text = _text[index];

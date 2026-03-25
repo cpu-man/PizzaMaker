@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <None Remove="images_png\Bianca base.png" />
+    <None Remove="images_png\Customer.png" />
     <None Remove="images_png\Gorgonzola Topping.png" />
     <None Remove="images_png\Kebab Topping.png" />
     <None Remove="images_png\Kebab_Topping.png" />
@@ -44,6 +45,9 @@
   <ItemGroup>
     <Resource Include="images_png\Bianca base.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images_png\Customer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="images_png\Gorgonzola Topping.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
